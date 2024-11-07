@@ -1,0 +1,60 @@
+{
+  "name": "debug-painter",
+  "version": "1.0.0",
+  "description": "Visual debugging and performance monitoring tool with enhanced console logging and performance tracking",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "start": "node index.js",
+    "lint": "biome lint .",
+    "format": "biome format .",
+    "clean": "rimraf dist",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratik-shikhaliya/debug-painter.git"
+  },
+  "keywords": [
+    "debug",
+    "console",
+    "performance",
+    "monitoring",
+    "logging",
+    "development",
+    "debugging-tool",
+    "visual-debug",
+    "performance-tracking",
+    "dev-tools"
+  ],
+  "author": {
+    "name": "Pratik Shikhaliya"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pratik-shikhaliya/debug-painter/issues"
+  },
+  "homepage": "https://github.com/pratik-shikhaliya/debug-painter#readme",
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@biomejs/biome": "1.5.3",
+    "babel-loader": "^9.1.3",
+    "vitest": "^1.3.1",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  },
+  "files": [
+    "index.js",
+    "biome.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module"
+}
