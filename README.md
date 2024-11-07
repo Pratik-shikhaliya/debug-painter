@@ -169,8 +169,11 @@ Log statistics after clearing: { logsCount: 0, performanceGroups: 0, memoryUsed:
 Creates a new instance of `DebugPainter` with the following options:
 
 `showTimings`: `Boolean` to enable/disable timing information (default: `true`)
+
 `showMemory`: `Boolean` to enable/disable memory tracking (default: `true`)
+
 `colorize`: `Boolean` to enable/disable colorized logs (default: `true`)
+
 `slowThreshold`: Number in milliseconds to track slow performance (default: `100ms`)
 
 `debug.watch(object, functionName)`
